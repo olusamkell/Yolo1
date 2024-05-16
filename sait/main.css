@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Suez+One');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.logoimage {
+  width: 50px;
+  height: 50px;
+}
+
+body {
+  font-family: Trebuchet MS, Helvetica;
+}
+
+/* Шапка сайта */
+
+.header1{
+  background-color:#2e3a44 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.logoimage{
+  margin-top: 20px;
+}
+
+ul{
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.button_exit {
+  background-color: #425666;
+}
+
+
+button {
+  margin-top: 10px;
+  width: 200px;
+  background-color: #425666;
+  border: 0;
+  border-radius: 100px;
+  padding: 10px;
+  color: white;
+}
+
+button:hover {
+  background-color: #425666;
+}
+
+.orderr{
+  color: black;
+  font-size: 50px;
+}
+
+.background_main{
+  background-image: url(images/car.jpg);
+  height: 800px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.dream_car{
+  display: flex;
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+
+.slider{
+  margin-top: 200px;
+}
+
+.d-block{
+  height: 1000px;
+}
+
+.text-image{
+  gap: 20px;
+  margin-top: 200px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+
+.text > p{
+  color: black;
+}
+
+.image > img{
+    width: 300px;
+    height: 300px;
+}
+
+.send{
+  display: flex;
+  justify-content: center;
+
+}
